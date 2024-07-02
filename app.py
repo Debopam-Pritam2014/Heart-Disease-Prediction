@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('BestRfModel.pkl', 'rb'))
 sc = pickle.load(open('scalar.pkl', 'rb'))
 
 st.header('Heart Disease Prediction')
